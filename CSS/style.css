@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clients-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.clients-form form input{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.clients-form form input[type=text],
+.clients-form form input[type=password],
+.clients-form form input[type=email]{
+    padding: 8px;
+    border:1px solid #aaa;
+    border-radius:4px;
+    outline:none;
+    transition:.3s;
+}
+
+.clients-form form input[type=text]:focus,
+.clients-form form input[type=password]:focus,
+.clients-form form input[type=password]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 6px 0 dodgerBlue;
+}
+.clients-form form input[type=text]:focus,
+.clients-form form input[type=password]:focus,
+.clients-form form input[type=email]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 6px 0 dodgerBlue;
+}
+
+.clients-form form input[type=submit]{
+    border: none;
+    padding: 12px 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #60a100;
+}
+
+.clients-form form input[type=submit]:hover {
+    background-color: #60a100;
+    color: white;
+}
+
+.clients-table table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+}
+table th a{
+    font-weight: normal;
+}
+
+.clients-table--edit{
+    background: #6daca5;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.clients-table--delete{
+    background: #b11e1e;
+    padding: 6px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+#header{
+    /* background: black; */
+    padding: 10px;
+}
+
+#header ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+#header ul li a{
+    /* color: white; */
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+ 
+ 
+ 
+   
